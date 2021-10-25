@@ -1,0 +1,171 @@
+body {
+    font-family: 'Karla', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    padding: 40px 20px;
+    width: 280px;
+
+}
+.heading {
+    color: hsl(179,62%,43%);
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.first {
+    color: rgb(210,227,127);
+    /* margin-top: 10px; */
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.second {
+    color: rgb(186,167,171);
+    /* margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px; */
+}
+
+.box1 {
+    background-color: rgb(44,178,177);
+    color: white;
+    padding: 40px 20px;
+    color: antiquewhite
+}
+
+.sub {
+    margin-bottom: 20px;
+}
+
+.number {
+    font-weight: bold;
+    padding-right: 10px;
+    width: 50px;
+    font-size: 30px;
+}
+
+.per {
+    opacity: 0.8;
+    font-weight: lighter;
+}
+
+.four {
+    margin-top: 20px;
+}
+
+button {
+    background-color: rgb(191,223,50);
+    color: antiquewhite;
+    width: 180px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    /* margin-left: 10px; */
+    margin-top: 20px;
+    /* margin-bottom: 10px; */
+}
+
+.box2 {
+    background-color: rgb(73,193,191);
+    padding: 40px 20px;
+}
+.heading1 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: antiquewhite;
+    line-height: 30px;
+}
+
+.box2 p {
+    color: antiquewhite;
+}
+
+@media screen and (min-width: 786px){
+    .content {
+        font-size: 22px;
+        width: 100%;
+        padding: 40px;
+    }
+
+    .content .heading {
+        font-size: 40px;
+    }
+    
+    .content .first {
+        font-size: 30px;
+    }
+
+    .content1 .second {
+        font-size: 30px;
+    }
+    
+    .box1 {
+        font-size: 22px;
+        padding-left: 40px;
+    }
+
+    .box1 .number {
+        font-size: 35px;
+    }
+
+    .box1 .per {
+        font-size: 28px;
+    }
+
+    .box1 .four {
+        font-size: 30px;
+        padding-bottom: 30px;
+    }
+
+    .box1 button {
+        height: 70px;
+        width: 350px;
+        font-size: 30px;
+        margin-top: 20px;
+    }
+
+    .box2 {
+        padding-left: 40px;
+        font-size: 22px;
+    }
+    
+    .box2 {
+        font-size: 30px;
+        line-height: 35px;
+        padding-left: 40px;
+    }
+    
+    .box2 .heading1 {
+        font-size: 35px;
+    }
+    }
+
+@media screen and (min-width: 1024px){
+    .box1 {
+        float: left;
+        width: 50%;
+        height: 400px;
+        margin-top: 80px;
+    }   
+
+    .box1 .sub {
+        font-size: 30px;
+    }
+
+    .box2 {
+        float: right;
+        width: 50%;
+        height: 400px;
+        margin-top: 80px;
+        
+    }
+    }
